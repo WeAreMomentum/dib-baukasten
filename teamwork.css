@@ -212,8 +212,16 @@ p a {
   color: var(--bg);
 }
 
+.gold-bg .button.button--outline {
+  color: var(--text);
+}
+
 .button.button--outline:active {
   color: var(--primary);
+}
+
+.orange-body .button.button--outline:active {
+  color: var(--lehre);
 }
 
 .red-bg .button.button--outline:active {
