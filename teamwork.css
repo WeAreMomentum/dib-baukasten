@@ -565,6 +565,18 @@ p a {
   color: var(--primary);
 }
 
+.w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row-2__icon,
+.alternating-row-2:nth-child(odd) .alternating-row-2__icon {
+  left: auto;
+  right: 32px;
+}
+
+.w-dyn-item.alternating-row-2:nth-child(even) .alternating-row-2__icon,
+.alternating-row-2:nth-child(even) .alternating-row-2__icon {
+  left: 32px;
+  right: auto;
+}
+
 @media screen and (min-width: 48rem) { /* 768px */
   .alternating-room .alternating-row__content,
   .w-dyn-item.alternating-row:nth-child(odd) .alternating-row__content,
