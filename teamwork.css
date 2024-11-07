@@ -704,6 +704,20 @@ p a {
   }
 }
 
+@media screen and (min-width: 82rem) { /* 1312px */
+  .container--broad .card-slider__mask {
+    max-width: 1248px;
+  }
+}
+
+@media screen and (max-width: 61.95rem) { /* 991px */
+  @media screen and (min-width: 57.55rem) { /* 921px */
+    .container--broad .card-slider__mask {
+      max-width: 857px;
+    }
+  }
+}
+
 @media screen and (max-width: 39.35rem) { /* 629px */
   .card-slider__mask {
     max-width: 275px;
