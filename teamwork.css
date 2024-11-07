@@ -940,6 +940,11 @@ p a {
   display: inline;
 }
 
+@media screen and (max-width: 37.5rem) { /* 600px */
+  .review-list {
+    width: 100%;
+  }
+}
 
 /* Standorte */
 @media screen and (max-width: 47.95rem) { /* 767px */
