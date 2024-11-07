@@ -569,6 +569,7 @@ p a {
   .alternating-room .alternating-row__content,
   .w-dyn-item.alternating-row:nth-child(odd) .alternating-row__content,
   .alternating-row:nth-child(odd) .alternating-row__content,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content,
   .alternating-row-2:nth-child(odd) .alternating-row__content {
     grid-template-columns: 1fr 1.1fr;
     text-align: left;
@@ -576,6 +577,7 @@ p a {
 
   .w-dyn-item.alternating-row:nth-child(even) .alternating-row__content,
   .alternating-row:nth-child(even) .alternating-row__content,
+  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content,
   .alternating-row-2:nth-child(even) .alternating-row__content {
     grid-template-columns: 1.1fr 1fr;
     text-align: right;
@@ -583,6 +585,7 @@ p a {
 
   .w-dyn-item.alternating-row:nth-child(even) .alternating-row__content li,
   .alternating-row:nth-child(even) .alternating-row__content li,
+  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content li,
   .alternating-row-2:nth-child(even) .alternating-row__content li {
     display: flex;
     justify-content: flex-end;
@@ -590,6 +593,7 @@ p a {
 
   .w-dyn-item.alternating-row:nth-child(even) .alternating-row__content li::after,
   .alternating-row:nth-child(even) .alternating-row__content li::after,
+  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content li::after,
   .alternating-row-2:nth-child(even) .alternating-row__content li::after {
     content: "•";
     margin-left: 20px;
@@ -598,6 +602,7 @@ p a {
 
   .w-dyn-item.alternating-row:nth-child(even) .button-wrapper,
   .alternating-row:nth-child(even) .button-wrapper,
+  .w-dyn-item.alternating-row-2:nth-child(even) .button-wrapper,
   .alternating-row-2:nth-child(even) .button-wrapper {
     justify-content: flex-end;
   }
@@ -633,8 +638,14 @@ p a {
     margin-left: 0;
   }
 
+  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row-2__img-wrapper,
   .alternating-row-2:nth-child(odd) .alternating-row-2__img-wrapper {
     order: -1;
+  }
+
+  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row-2__img-wrapper,
+  .alternating-row-2:nth-child(even) .alternating-row-2__img-wrapper {
+    order: unset;
   }
 }
 
