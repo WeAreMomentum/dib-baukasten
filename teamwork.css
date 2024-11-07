@@ -205,6 +205,21 @@ p a {
   font-weight: 600;
 }
 
+.blue-bg .button.button--outline,
+.main--blue .button.button--outline,
+.orange-bg .button.button--outline,
+.red-bg .button.button--outline {
+  color: var(--bg);
+}
+
+.button.button--outline:active {
+  color: var(--primary);
+}
+
+.red-bg .button.button--outline:active {
+  color: var(--secondary);
+}
+
 .orange-body .button.button--solid {
   background-color: var(--lehre);
 }
@@ -247,6 +262,18 @@ p a {
     font-weight: 600;
   }
 
+  .button.button--outline:hover {
+    color: var(--secondary);
+  }
+  
+  .blue-bg .button.button--outline:hover {
+    color: var(--text);
+  }
+  
+  .red-bg .button.button--outline:hover {
+    color: var(--e99fab);
+  }
+  
   .button.button--solid:hover {
     background-color: var(--e99fab);
     color: var(--text);
