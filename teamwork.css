@@ -521,8 +521,13 @@ p a {
 }
 
 .w-dyn-item.alternating-room.light-blue-bg:nth-child(even) .heading-48,
-.w-dyn-item.alternating-row.light-blue-bg:nth-child(even) .heading-48 {
+.w-dyn-item.alternating-row.light-blue-bg:nth-child(even) .heading-48,
+.main--blue .alternating-row-2 .heading-48 {
   color: inherit;
+}
+
+.alternating-row-2 .heading-48 {
+  color: var(--primary);
 }
 
 @media screen and (min-width: 48rem) { /* 768px */
