@@ -512,8 +512,7 @@ p a {
 .blue-bg:last-child,
 .green-bg:last-child,
 .grey-bg:last-child,
-.light-blue-bg:last-child,
-.main > *:last-child .w-dyn-item.alternating-row-2.blue-bg:last-child:nth-child(odd) {
+.light-blue-bg:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
