@@ -766,6 +766,10 @@ p a {
   margin-top: 16px;
 }
 
+.text-line a {
+  text-decoration: underline;
+}
+
 
 /* Countables */
 .countables .heading-48 {
