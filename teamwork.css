@@ -512,7 +512,8 @@ p a {
 .blue-bg:last-child,
 .green-bg:last-child,
 .grey-bg:last-child,
-.light-blue-bg:last-child {
+.light-blue-bg:last-child,
+.main > *:last-child .w-dyn-item.alternating-row-2.blue-bg:last-child:nth-child(odd) {
   margin-bottom: 0;
   border-bottom: none;
 }
@@ -694,8 +695,8 @@ p a {
   }
 
   .colored-bg-sibling .w-dyn-item.alternating-room.light-blue-bg:last-child:nth-child(even),
-  .colored-bg-sibling .w-dyn-item.alternating-row-2.blue-bg:last-child:nth-child(even),
-  .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(even) {
+  .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(even),
+  .colored-bg-sibling .w-dyn-item.alternating-row-2.blue-bg:last-child:nth-child(even) {
     margin-bottom: 80px;
   }
 }
