@@ -558,8 +558,9 @@ p a {
 
 .w-dyn-item.alternating-room.light-blue-bg:nth-child(even) .heading-48,
 .w-dyn-item.alternating-row.light-blue-bg:nth-child(even) .heading-48,
-.w-dyn-item.alternating-row-2.blue-bg:nth-child(even) .heading-48,
-.main--blue .alternating-row-2 .heading-48 {
+.w-dyn-item.alternating-row-2.blue-bg:nth-child(odd) .heading-48,
+.main--blue .alternating-row-2 .heading-48,
+.w-dyn-item.alternating-row-2.blue-bg:nth-child(odd) .contact__heading {
   color: inherit;
 }
 
