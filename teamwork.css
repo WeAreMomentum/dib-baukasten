@@ -550,13 +550,15 @@ p a {
 
 /* Alternating Room & Row */
 .w-dyn-item.alternating-room.light-blue-bg:nth-child(even),
-.w-dyn-item.alternating-row.light-blue-bg:nth-child(even) {
+.w-dyn-item.alternating-row.light-blue-bg:nth-child(even),
+.w-dyn-item.alternating-row-2.blue-bg:nth-child(even) {
   background: none;
   border: none;
 }
 
 .w-dyn-item.alternating-room.light-blue-bg:nth-child(even) .heading-48,
 .w-dyn-item.alternating-row.light-blue-bg:nth-child(even) .heading-48,
+.w-dyn-item.alternating-row-2.blue-bg:nth-child(even) .heading-48,
 .main--blue .alternating-row-2 .heading-48 {
   color: inherit;
 }
@@ -621,17 +623,23 @@ p a {
 
   .alternating-room .contact,
   .w-dyn-item.alternating-row:nth-child(odd) .contact,
-  .alternating-row:nth-child(odd) .contact {
+  .alternating-row:nth-child(odd) .contact,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .contact,
+  .alternating-row-2:nth-child(odd) .contact {
     flex-direction: row-reverse;
   }
 
   .w-dyn-item.alternating-row:nth-child(even) .contact,
-  .alternating-row:nth-child(even) .contact {
+  .alternating-row:nth-child(even) .contact,
+  .w-dyn-item.alternating-row-2:nth-child(even) .contact,
+  .alternating-row-2:nth-child(even) .contact {
     flex-direction: row;
   }
 
   .w-dyn-item.alternating-row:nth-child(even) .text-line,
-  .alternating-row:nth-child(even) .text-line {
+  .alternating-row:nth-child(even) .text-line,
+  .w-dyn-item.alternating-row-2:nth-child(even) .text-line,
+  .alternating-row-2:nth-child(even) .text-line {
     justify-content: flex-end;
   }
 
@@ -663,25 +671,29 @@ p a {
 
 @media screen and (min-width: 62rem) { /* 992px */
   .colored-bg-sibling .w-dyn-item.alternating-room.light-blue-bg:last-child:nth-child(odd),
-  .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(odd) {
+  .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(odd),
+  .colored-bg-sibling .w-dyn-item.alternating-row-2.blue-bg:last-child:nth-child(odd) {
     margin-bottom: 160px;
     border-bottom: 1px solid var(--transparent);
   }
 
   .colored-bg-sibling .w-dyn-item.alternating-room.light-blue-bg:last-child:nth-child(even),
-  .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(even) {
+  .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(even),
+  .colored-bg-sibling .w-dyn-item.alternating-row-2.blue-bg:last-child:nth-child(even) {
     margin-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 61.95rem) { /* 991px */
   .colored-bg-sibling .w-dyn-item.alternating-room.light-blue-bg:last-child:nth-child(odd),
-  .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(odd) {
+  .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(odd),
+  .colored-bg-sibling .w-dyn-item.alternating-row-2.blue-bg:last-child:nth-child(odd) {
     margin-bottom: 64px;
     border-bottom: 1px solid var(--transparent);
   }
 
   .colored-bg-sibling .w-dyn-item.alternating-room.light-blue-bg:last-child:nth-child(even),
+  .colored-bg-sibling .w-dyn-item.alternating-row-2.blue-bg:last-child:nth-child(even),
   .colored-bg-sibling .w-dyn-item.alternating-row.light-blue-bg:last-child:nth-child(even) {
     margin-bottom: 80px;
   }
