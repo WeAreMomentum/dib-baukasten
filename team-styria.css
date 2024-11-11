@@ -47,7 +47,6 @@ ol {
   margin: 0;
 }
 
-img,
 picture,
 video,
 canvas,
@@ -58,20 +57,6 @@ svg {
 
 svg {
   flex-shrink: 0;
-}
-
-img {
-  max-width: none;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
 }
 
 iframe {
@@ -189,14 +174,6 @@ p:not(:last-child) {
 
 .input.input--select {
   background-position-x: calc(100% - 10px);
-}
-
-h1 {
-  color: var(--primary);
-}
-
-.text--black {
-  color: var(--text);
 }
 
 
@@ -352,10 +329,6 @@ p a {
   position: absolute;
   font-family: hl-icons !important;
   font-size: 1.25em;
-}
-
-.search__input {
-  font: inherit;
 }
 
 @media screen and (min-width: 62rem) { /* 992px */
