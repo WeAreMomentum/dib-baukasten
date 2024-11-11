@@ -358,14 +358,6 @@ p a {
   font: inherit;
 }
 
-.progress-bar__line {
-  background-color: currentColor;
-}
-
-.progress-bar__value {
-  right: calc(-2em + 2.5%);
-}
-
 @media screen and (min-width: 62rem) { /* 992px */
   .skip-link:hover {
     color: var(--primary);
