@@ -205,15 +205,8 @@ p a {
   font-weight: 600;
 }
 
-.blue-bg .button.button--outline,
-.main--blue .button.button--outline,
-.orange-bg .button.button--outline,
-.red-bg .button.button--outline {
+.dark-green-bg .button.button--outline {
   color: var(--bg);
-}
-
-.gold-bg .button.button--outline {
-  color: var(--text);
 }
 
 .button.button--outline:active {
@@ -224,22 +217,25 @@ p a {
   color: var(--lehre);
 }
 
-.red-bg .button.button--outline:active {
-  color: var(--secondary);
+.dark-green-bg .button.button--outline:active {
+  color: var(--text);
+}
+
+.light-green-bg .button.button--outline:active {
+  color: var(--bg);
 }
 
 .orange-body .button.button--solid {
   background-color: var(--lehre);
 }
 
-.blue-bg .button.button--solid,
-.main--blue .button.button--solid {
+.dark-green-bg .button.button--solid {
   background-color: var(--bg);
   color: var(--primary);
 }
 
-.orange-bg .button.button--solid,
-.red-bg .button.button--solid {
+.light-green-bg .button.button--solid,
+.orange-bg .button.button--solid {
   background-color: var(--bg);
   color: var(--text);
 }
@@ -249,10 +245,10 @@ p a {
   color: var(--bg);
 }
 
-.orange-bg .button.button--solid:active,
-.red-bg .button.button--solid:active {
-  background-color: var(--secondary);
-  color: var(--text);
+.dark-green-bg .button.button--solid:active,
+.light-green-bg .button.button--solid:active,
+.orange-bg .button.button--solid:active {
+  background-color: var(--text);
 }
 
 @media screen and (min-width: 62rem) { /* 992px */
@@ -274,17 +270,22 @@ p a {
     color: var(--secondary);
   }
   
-  .blue-bg .button.button--outline:hover {
-    color: var(--text);
-  }
-  
-  .red-bg .button.button--outline:hover {
-    color: var(--e99fab);
+  .light-green-bg .button.button--outline:hover {
+    color: var(--primary);
   }
   
   .button.button--solid:hover {
-    background-color: var(--e99fab);
-    color: var(--text);
+    background-color: var(--text);
+    color: var(--bg);
+  }
+  
+  .dark-green-bg .button.button--solid:hover {
+    background-color: var(--secondary);
+  }
+  
+  .light-green-bg .button.button--solid:hover,
+  .orange-bg .button.button--solid:hover {
+    background-color: var(--primary);
   }
 }
 
@@ -323,6 +324,10 @@ p a {
 .menu__nav .button.button--solid {
   background-color: var(--bg);
   color: var(--text);
+}
+
+.menu__nav .button.button--solid:active {
+  background-color: var(--text);
 }
 
 .menu__sub-wrapper.active .menu__sub-arrow {
@@ -373,6 +378,10 @@ p a {
     color: var(--primary);
   }
 
+  .menu__nav .button.button--solid:hover {
+    background-color: var(--primary);
+  }
+  
   .menu__nav>.button:last-child {
     margin-left: 24px;
   }
