@@ -434,29 +434,8 @@ p a {
 
 
 /* Footer */
-.main--blue+footer .footer {
-  background-color: var(--bg);
-}
-
-.footer__brand .logo__main {
-  color: var(--primary);
-}
-
-.footer__brand .logo__secondary {
-  color: var(--bg);
-}
-
-.main--blue+footer .footer__brand .logo__secondary {
-  color: var(--text);
-}
-
 .footer .overline {
   color: inherit;
-}
-
-.main--blue+footer .bottombar {
-  background-color: var(--secondary);
-  color: var(--bg);
 }
 
 @media screen and (max-width: 61.95rem) { /* 991px */
