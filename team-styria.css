@@ -328,6 +328,7 @@ p a {
 
 .menu__nav .button.button--solid:active {
   background-color: var(--text);
+  color: var(--bg);
 }
 
 .menu__sub-wrapper.active .menu__sub-arrow {
@@ -380,6 +381,7 @@ p a {
 
   .menu__nav .button.button--solid:hover {
     background-color: var(--primary);
+    color: var(--bg);
   }
   
   .menu__nav>.button:last-child {
