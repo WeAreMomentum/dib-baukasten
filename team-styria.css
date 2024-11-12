@@ -415,11 +415,11 @@ p a {
   width: 8px;
   height: 8px;
   border-radius: 100px;
-  background-color: #D7E8B0;
+  background-color: #8D8D8D;
 }
 
 .w-slider-dot.w-active {
-  background-color: var(--secondary);
+  background-color: var(--text);
 }
 
 @media screen and (min-width: 62rem) { /* 992px */
