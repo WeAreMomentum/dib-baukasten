@@ -777,6 +777,16 @@ p a {
   background-color: var(--lehre);
 }
 
+.highlight .button.button--solid:nth-child(2):active {
+  background-color: var(--primary);
+}
+
+@media screen and (min-width: 62rem) { /* 992px */
+  .highlight .button.button--solid:nth-child(2):hover {
+    background-color: var(--text);
+  }
+}
+
 
 /* History */
 .history__item:first-child .history__marker-top-line {
