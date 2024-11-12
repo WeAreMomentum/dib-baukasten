@@ -473,6 +473,11 @@ p a {
   color: inherit;
 }
 
+.grey-bg .news__item .icon-link {
+  color: inherit;
+}
+
+
 
 /* Accordion */
 .accordion.active .accordion__arrow {
