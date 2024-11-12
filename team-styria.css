@@ -868,13 +868,6 @@ p a {
 
 .locations__link:nth-child(6) {
   font-weight: 600;
-  color: var(--primary);
-}
-
-.blue-bg .locations__link:nth-child(6),
-.light-blue-bg .locations__link:nth-child(6),
-.green-bg .locations__link:nth-child(6) {
-  color: inherit;
 }
 
 @media screen and (max-width: 47.95rem) { /* 767px */
