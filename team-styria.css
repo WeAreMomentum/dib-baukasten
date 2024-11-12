@@ -451,10 +451,9 @@ p a {
 
 
 /* Colored BG */
-.blue-bg:last-child,
-.green-bg:last-child,
-.grey-bg:last-child,
-.light-blue-bg:last-child {
+.dark-green-bg:last-child,
+.light-green-bg:last-child,
+.grey-bg:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
@@ -463,24 +462,15 @@ p a {
   margin-bottom: 0 !important;
 }
 
-.colored-bg-sibling+.blue-bg,
-.colored-bg-sibling+.green-bg,
-.colored-bg-sibling+.grey-bg,
-.colored-bg-sibling+.light-blue-bg {
+.colored-bg-sibling+.dark-green-bg,
+.colored-bg-sibling+.light-green-bg,
+.colored-bg-sibling+.grey-bg {
   margin-top: 0;
   border-top: none;
 }
 
-.blue-bg .overline,
-.green-bg .overline,
-.light-blue-bg .overline {
+.dark-green-bg .overline {
   color: inherit;
-}
-
-.grey-bg .heading-40,
-.grey-bg .heading-48,
-.light-blue-bg .heading-48 {
-  color: var(--primary);
 }
 
 
@@ -726,6 +716,7 @@ p a {
 
 .section.section--dib .button.button--solid {
   background-color: var(--dib);
+  color: var(--text);
 }
 
 
