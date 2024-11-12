@@ -774,19 +774,7 @@ p a {
 }
 
 .highlight .button.button--solid:nth-child(2) {
-  background-color: var(--primary);
-  color: var(--bg);
-}
-
-.highlight .button.button--solid:nth-child(2):active {
-  background-color: var(--bg);
-  color: var(--text);
-}
-
-@media screen and (min-width: 62rem) { /* 992px */
-  .highlight .button.button--solid:nth-child(2):hover {
-    background-color: var(--text);
-  }
+  background-color: var(--lehre);
 }
 
 
