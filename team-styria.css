@@ -716,7 +716,17 @@ p a {
 
 .section.section--dib .button.button--solid {
   background-color: var(--dib);
-  color: var(--text);
+  color: var(--bg);
+}
+
+.section.section--dib .button.button--solid:active {
+  background-color: var(--primary);
+}
+
+@media screen and (min-width: 62rem) { /* 992px */
+  .section.section--dib .button.button--solid:hover {
+    background-color: var(--text);
+  }
 }
 
 
