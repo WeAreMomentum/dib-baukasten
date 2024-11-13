@@ -658,6 +658,12 @@ p a {
 }
 
 
+/* CTA with Image */
+.cta-image__content .heading-48 {
+  color: var(--primary);
+}
+
+
 /* diB */
 .section.section--dib .heading-48 {
   color: var(--dib);
