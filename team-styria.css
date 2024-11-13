@@ -491,6 +491,15 @@ p a {
   border: none;
 }
 
+.w-dyn-item.alternating-row-2.light-green-bg:nth-child(even) .button.button--solid {
+  background-color: var(--secondary);
+}
+
+.w-dyn-item.alternating-row-2.light-green-bg:nth-child(even) .button.button--solid:active {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
 .w-dyn-item.alternating-row-2.light-green-bg:nth-child(odd) .contact__heading {
   color: inherit;
 }
@@ -572,6 +581,11 @@ p a {
 
   .colored-bg-sibling .w-dyn-item.alternating-row-2.light-green-bg:last-child:nth-child(even) {
     margin-bottom: 80px;
+  }
+
+  .w-dyn-item.alternating-row-2.light-green-bg:nth-child(even) .button.button--solid:hover {
+    background-color: var(--text);
+    color: var(--bg);
   }
 }
 
