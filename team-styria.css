@@ -438,7 +438,14 @@ p a {
   color: var(--lehre);
 }
 
+.orange-body .menu__nav > .button:last-child:active {
+  background-color: var(--text);
+  color: var(--bg);
+}
+
 .orange-body .menu__nav,
+.orange-body .menu__sub-link-list,
+.orange-body .header__social-link,
 .orange-body .jobs__item,
 .lehrstelle-tag+.jobs__item {
   background-color: var(--lehre);
@@ -447,6 +454,13 @@ p a {
 .orange-body .team-card,
 .orange-body .accordion {
   border-color: var(--lehre);
+}
+
+@media screen and (min-width: 62rem) { /* 992px */
+  .orange-body .menu__nav > .button:last-child:hover {
+    background-color: var(--primary);
+    color: var(--bg);
+  }
 }
 
 
