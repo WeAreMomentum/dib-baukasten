@@ -838,14 +838,6 @@ p a {
 }
 
 
-/* Kontakt */
-@media screen and (min-width: 77.5rem) { /* 1240px */
-  .kontakt__map {
-    margin-top: -500px;
-  }
-}
-
-
 /* Link Card */
 .link-card .overline {
   color: inherit;
