@@ -430,23 +430,20 @@ p a {
 
 
 /* Colored Pages */
-.main--blue .heading-48,
-.main--blue .heading-110,
-.main--blue .highlight .heading-110 {
-  color: inherit;
-}
-
 .orange-body .heading-110,
 .orange-body .countables__value,
-.orange-body .jobs__item-2 h3,
 .orange-body .accordion__title {
   color: var(--lehre);
 }
 
-.lehrstelle-tag+.jobs__item,
-.orange-body .team-card {
+.orange-body .jobs__item,
+.lehrstelle-tag+.jobs__item {
   background-color: var(--lehre);
-  color: var(--bg);
+}
+
+.orange-body .team-card,
+.orange-body .accordion {
+  border-color: var(--lehre);
 }
 
 
@@ -779,12 +776,6 @@ p a {
       max-width: 857px;
     }
   }
-}
-
-
-/* Jobs */
-.jobs__item-2 h3 {
-  color: var(--primary);
 }
 
 
