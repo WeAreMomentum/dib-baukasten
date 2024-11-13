@@ -461,6 +461,11 @@ p a {
     background-color: var(--primary);
     color: var(--bg);
   }
+  
+  .orange-body .header__social-link:hover {
+    background-color: var(--secondary);
+    color: var(--text);
+  }
 }
 
 
