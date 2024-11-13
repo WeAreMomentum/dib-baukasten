@@ -431,12 +431,14 @@ p a {
 
 
 /* Colored Pages */
+.orange-body .menu__nav > .button:last-child,
 .orange-body .heading-110,
 .orange-body .countables__value,
 .orange-body .accordion__heading {
   color: var(--lehre);
 }
 
+.orange-body .menu__nav,
 .orange-body .jobs__item,
 .lehrstelle-tag+.jobs__item {
   background-color: var(--lehre);
