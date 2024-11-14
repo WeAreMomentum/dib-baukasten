@@ -223,12 +223,13 @@ p a {
   }
 
   a.news__card:hover,
-  a.news__item:hover {
+  a.news__item:hover,
+  a.referenzen__teaser:hover {
     transform: scale(1.05);
     box-shadow: #00000010 0 5px 10px;
   }
 
-  a:not(.button):not(.header__social-link):not(.link-card):not(.news__card):not(.news__item):not(.skip-link):not(.subleistung-card):hover {
+  a:not(.button):not(.header__social-link):not(.link-card):not(.news__card):not(.news__item):not(.referenzen__teaser):not(.skip-link):not(.subleistung-card):hover {
     font-weight: 600;
   }
 
