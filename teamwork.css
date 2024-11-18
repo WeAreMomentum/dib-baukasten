@@ -238,7 +238,11 @@ p a {
   color: var(--primary);
 }
 
-.orange-bg .button.button--solid,
+.orange-bg .button.button--solid {
+  background-color: var(--bg);
+  color: var(--lehre);
+}
+
 .red-bg .button.button--solid {
   background-color: var(--bg);
   color: var(--text);
@@ -249,7 +253,11 @@ p a {
   color: var(--bg);
 }
 
-.orange-bg .button.button--solid:active,
+.orange-bg .button.button--solid:active {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
 .red-bg .button.button--solid:active {
   background-color: var(--secondary);
   color: var(--text);
@@ -285,6 +293,11 @@ p a {
   .button.button--solid:hover {
     background-color: var(--e99fab);
     color: var(--text);
+  }
+  
+  .orange-bg .button.button--solid:hover {
+    background-color: var(--text);
+    color: var(--bg);
   }
 }
 
