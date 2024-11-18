@@ -562,8 +562,6 @@ p a {
   color: inherit;
 }
 
-.grey-bg .heading-40,
-.grey-bg .heading-48,
 .light-blue-bg .heading-48 {
   color: var(--primary);
 }
