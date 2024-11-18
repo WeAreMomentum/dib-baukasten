@@ -329,7 +329,8 @@ a.icon-link:active,
 
 
 /* Header */
-.header.header--scrolled .menu {
+.header.header--scrolled .menu,
+.header.header--scrolled .menu__sub-link-list {
   background: var(--secondary);
   color: var(--bg);
 }
@@ -416,6 +417,10 @@ a.icon-link:active,
 
   .menu__nav .button:not(.button--solid):hover {
     color: var(--secondary);
+  }
+
+  .header.header--scrolled .menu__nav .button:not(.button--solid):hover {
+    color: var(--primary);
   }
 
   .menu__nav>.button:last-child {
