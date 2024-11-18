@@ -216,14 +216,17 @@ p a {
   color: var(--text);
 }
 
+.icon-link:active,
 .button.button--outline:active {
   color: var(--primary);
 }
 
+.orange-body .icon-link:active,
 .orange-body .button.button--outline:active {
   color: var(--lehre);
 }
 
+.red-bg .icon-link:active,
 .red-bg .button.button--outline:active {
   color: var(--secondary);
 }
@@ -275,14 +278,16 @@ p a {
     box-shadow: #00000010 0 5px 10px;
   }
 
-  a:not(.button):not(.header__social-link):not(.link-card):not(.news__card):not(.news__item):not(.skip-link):not(.subleistung-card):hover {
+  a:not(.button):not(.icon-link):not(.header__social-link):not(.link-card):not(.news__card):not(.news__item):not(.skip-link):not(.subleistung-card):hover {
     font-weight: 600;
   }
 
+  .icon-link:hover,
   .button.button--outline:hover {
     color: var(--secondary);
   }
   
+  .orange-body .icon-link:hover,
   .orange-body .button.button--outline:hover {
     color: var(--928e8e);
   }
@@ -295,6 +300,11 @@ p a {
     color: var(--e99fab);
   }
   
+  .red-bg .icon-link:hover,
+  .blue-bg .icon-link:hover {
+    color: var(--bg);
+  }
+
   .button.button--solid:hover {
     background-color: var(--e99fab);
     color: var(--text);
