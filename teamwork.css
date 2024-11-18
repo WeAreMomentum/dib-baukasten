@@ -530,6 +530,10 @@ p a {
   color: var(--bg);
 }
 
+.red-heading .heading-48 {
+  color: var(--primary);
+}
+
 
 /* Colored BG */
 .blue-bg:last-child,
