@@ -216,17 +216,17 @@ p a {
   color: var(--text);
 }
 
-.icon-link:active,
+a.icon-link:active,
 .button.button--outline:active {
   color: var(--primary);
 }
 
-.orange-body .icon-link:active,
+.orange-body a.icon-link:active,
 .orange-body .button.button--outline:active {
   color: var(--lehre);
 }
 
-.red-bg .icon-link:active,
+.red-bg a.icon-link:active,
 .red-bg .button.button--outline:active {
   color: var(--secondary);
 }
@@ -282,12 +282,12 @@ p a {
     font-weight: 600;
   }
 
-  .icon-link:hover,
+  a.icon-link:hover,
   .button.button--outline:hover {
     color: var(--secondary);
   }
   
-  .orange-body .icon-link:hover,
+  .orange-body a.icon-link:hover,
   .orange-body .button.button--outline:hover {
     color: var(--928e8e);
   }
@@ -300,8 +300,8 @@ p a {
     color: var(--e99fab);
   }
   
-  .red-bg .icon-link:hover,
-  .blue-bg .icon-link:hover {
+  .red-bg a.icon-link:hover,
+  .blue-bg a.icon-link:hover {
     color: var(--bg);
   }
 
