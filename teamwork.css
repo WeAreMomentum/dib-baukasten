@@ -537,9 +537,9 @@ p a {
 
 /* Colored BG */
 .blue-bg:last-child,
-.green-bg:last-child,
 .grey-bg:last-child,
-.light-blue-bg:last-child {
+.red-bg:last-child,
+.orange-bg:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
@@ -549,21 +549,15 @@ p a {
 }
 
 .colored-bg-sibling+.blue-bg,
-.colored-bg-sibling+.green-bg,
 .colored-bg-sibling+.grey-bg,
-.colored-bg-sibling+.light-blue-bg {
+.colored-bg-sibling+.red-bg,
+.colored-bg-sibling+.orange-bg {
   margin-top: 0;
   border-top: none;
 }
 
-.blue-bg .overline,
-.green-bg .overline,
-.light-blue-bg .overline {
+.blue-bg .overline {
   color: inherit;
-}
-
-.light-blue-bg .heading-48 {
-  color: var(--primary);
 }
 
 
