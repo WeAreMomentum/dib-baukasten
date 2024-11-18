@@ -316,6 +316,10 @@ p a {
   height: auto;
 }
 
+.menu__nav .button {
+  font-weight: 600;
+}
+
 .menu__nav .button:not(.button--solid):active {
   color: var(--primary);
 }
