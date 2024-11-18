@@ -329,14 +329,9 @@ a.icon-link:active,
 
 
 /* Header */
-.header__brand .logo__main,
-.header__mobile-brand .logo__main {
-  color: var(--primary);
-}
-
-.header__brand .logo__secondary,
-.header__mobile-brand .logo__secondary {
-  color: var(--text);
+.header.header--scrolled .menu {
+  background: var(--secondary);
+  color: var(--bg);
 }
 
 .header.header--scrolled .header__brand svg,
@@ -345,12 +340,33 @@ a.icon-link:active,
   height: auto;
 }
 
+.header__brand .logo__main,
+.header__mobile-brand .logo__main {
+  color: var(--primary);
+}
+
+.header__brand .logo__secondary,
+.header__mobile-brand .logo__secondary {
+  color: var(--text);
+  transition: color .3s ease-out;
+}
+
+.header.header--scrolled .header__brand .logo__secondary,
+.header.header--scrolled .header__mobile-brand .logo__secondary {
+  color: var(--bg);
+}
+
 .menu__nav .button {
   font-weight: 600;
 }
 
 .menu__nav .button:not(.button--solid):active {
   color: var(--primary);
+}
+
+.header.header--scrolled .menu__nav .button.button--solid {
+  color: var(--primary);
+  background: var(--bg);
 }
 
 .menu__sub-wrapper.active .menu__sub-arrow {
