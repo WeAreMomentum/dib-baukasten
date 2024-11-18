@@ -539,7 +539,8 @@ p a {
 .blue-bg:last-child,
 .grey-bg:last-child,
 .red-bg:last-child,
-.orange-bg:last-child {
+.orange-bg:last-child,
+section.section--image:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
