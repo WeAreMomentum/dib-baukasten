@@ -283,6 +283,10 @@ p a {
     color: var(--secondary);
   }
   
+  .orange-body .button.button--outline:hover {
+    color: var(--928e8e);
+  }
+  
   .blue-bg .button.button--outline:hover {
     color: var(--text);
   }
