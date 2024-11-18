@@ -253,6 +253,7 @@ p a {
   color: var(--bg);
 }
 
+.orange-body .button.button--solid:active,
 .orange-bg .button.button--solid:active {
   background-color: var(--primary);
   color: var(--bg);
@@ -295,6 +296,7 @@ p a {
     color: var(--text);
   }
   
+  .orange-body .button.button--solid:hover,
   .orange-bg .button.button--solid:hover {
     background-color: var(--text);
     color: var(--bg);
