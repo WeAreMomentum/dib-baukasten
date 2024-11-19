@@ -775,6 +775,14 @@ p a {
 }
 
 
+/* Big Image Slider */
+@media screen and (min-width: 82rem) { /* 1312px */
+  .big-img-slider__mask {
+    max-width: 1248px;
+  }
+}
+
+
 /* Image Slider */
 @media screen and (min-width: 81rem) { /* 1296px */
   .img-slider__mask.img-slider__mask--big {
