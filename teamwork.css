@@ -16,15 +16,8 @@ body {
   position: relative;
 }
 
-h1,
-h2,
-h3,
-h4,
 h5,
 h6,
-a,
-p,
-blockquote,
 button,
 input,
 option,
@@ -42,12 +35,6 @@ button {
   background: none;
 }
 
-ul,
-ol {
-  margin: 0;
-}
-
-img,
 picture,
 video,
 canvas,
@@ -58,20 +45,6 @@ svg {
 
 svg {
   flex-shrink: 0;
-}
-
-img {
-  max-width: none;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
 }
 
 iframe {
@@ -189,14 +162,6 @@ p:not(:last-child) {
 
 .input.input--select {
   background-position-x: calc(100% - 10px);
-}
-
-h1 {
-  color: var(--primary);
-}
-
-.text--black {
-  color: var(--text);
 }
 
 
@@ -925,6 +890,12 @@ section.section--image:last-child {
   }
 }
 
+@media screen and (min-width: 82rem) { /* 1312px */
+  .leistung-img-slider__mask {
+    max-width: 1248px;
+  }
+}
+
 @media screen and (max-width: 61.95rem) { /* 991px */
   @media screen and (min-width: 39.375rem) { /* 630px */
     .img-slider__mask {
@@ -936,6 +907,12 @@ section.section--image:last-child {
     .img-slider__mask.img-slider__mask--big {
       max-width: 857px;
     }
+  }
+}
+
+@media screen and (max-width: 42.45rem) { /* 679px */
+  .leistung-img-slider__mask {
+    max-width: 300px;
   }
 }
 
