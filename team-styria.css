@@ -744,10 +744,6 @@ p a {
 
 
 /* Highlight */
-.highlight .heading-110 {
-  color: var(--primary);
-}
-
 .highlight .button.button--solid:nth-child(2) {
   background-color: var(--lehre);
 }
