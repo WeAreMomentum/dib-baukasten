@@ -284,6 +284,7 @@ p a {
   color: var(--secondary);
 }
 
+.body-white-logo .header:not(.header--scrolled) .header__brand,
 .body-white-logo .header:not(.header--scrolled) .header__brand .logo__main,
 .body-white-logo .header:not(.header--scrolled) .header__brand .logo__secondary {
   color: var(--bg);
