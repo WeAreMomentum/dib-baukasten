@@ -540,7 +540,7 @@ a.icon-link:active,
   border-bottom: none;
 }
 
-section.section--image:last-child {
+.section.section--image:last-child {
   padding-bottom: 0;
 }
 
