@@ -587,7 +587,7 @@ a.icon-link:active,
   color: var(--primary);
 }
 
-.content__arrow-lists-text ul li {
+.content__arrow-lists-text ul li a {
   background: url("https://cdn.prod.website-files.com/6720f41546ae7e2aa0ec64ee/673dc9368cb49d87df576e6a_icon--button-arrow.svg") no-repeat 16px center;
   padding: 10px 16px 10px 45px;
   font-weight: 400;
