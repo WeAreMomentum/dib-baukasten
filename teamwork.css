@@ -612,15 +612,6 @@ a.icon-link:active,
     text-align: right;
   }
 
-  .w-dyn-item.alternating-row:nth-child(even) .alternating-row__content .content__arrow-lists-text ul,
-  .alternating-row:nth-child(even) .alternating-row__content .content__arrow-lists-text ul,
-  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content .content__arrow-lists-text ul,
-  .alternating-row-2:nth-child(even) .alternating-row__content .content__arrow-lists-text ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
   .w-dyn-item.alternating-row:nth-child(even) .alternating-row__content li,
   .alternating-row:nth-child(even) .alternating-row__content li,
   .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content li,
