@@ -831,7 +831,7 @@ p a {
 }
 
 @media screen and (min-width: 62rem) { /* 992px */
-  .link-card .button.button--solid:hover {
+  .link-card:hover .button.button--solid {
     background-color: var(--primary);
   }
 
