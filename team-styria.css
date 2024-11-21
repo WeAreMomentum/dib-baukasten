@@ -938,3 +938,8 @@ p a {
     margin-bottom: 34%;
   }
 }
+
+/* Hubspot */
+.hsfc-Step .hsfc-Step__Content {
+  padding: 0 !important;
+}
