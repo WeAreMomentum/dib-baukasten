@@ -826,7 +826,15 @@ p a {
   color: var(--text);
 }
 
+.link-card .button.button--solid:active {
+  background-color: var(--text);
+}
+
 @media screen and (min-width: 62rem) { /* 992px */
+  .link-card .button.button--solid:hover {
+    background-color: var(--primary);
+  }
+
   .link-card:hover .link-card__bg-img {
     transform: scale(1.02);
   }
