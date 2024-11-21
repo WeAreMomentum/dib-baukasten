@@ -828,11 +828,13 @@ p a {
 
 .link-card .button.button--solid:active {
   background-color: var(--text);
+  color: var(--bg);
 }
 
 @media screen and (min-width: 62rem) { /* 992px */
   .link-card:hover .button.button--solid {
     background-color: var(--primary);
+    color: var(--bg);
   }
 
   .link-card:hover .link-card__bg-img {
