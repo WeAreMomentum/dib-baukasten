@@ -826,7 +826,7 @@ p a {
   color: var(--text);
 }
 
-.link-card .button.button--solid:active {
+.link-card:active .button.button--solid {
   background-color: var(--text);
   color: var(--bg);
 }
