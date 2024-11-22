@@ -317,8 +317,7 @@ a.icon-link:active,
   transition: color .3s ease-out;
 }
 
-.header.header--scrolled .header__brand .logo__secondary,
-.header.header--scrolled .header__mobile-brand .logo__secondary {
+.header.header--scrolled .header__brand .logo__secondary {
   color: var(--bg);
 }
 
