@@ -300,8 +300,8 @@ a.icon-link:active,
   color: var(--bg);
 }
 
-.header.header--scrolled .header__brand svg,
-.header.header--scrolled .header__mobile-brand svg,
+.header__brand svg,
+.header__mobile-brand svg,
 .menu__brand svg {
   height: auto;
 }
@@ -374,9 +374,12 @@ a.icon-link:active,
     color: var(--primary);
   }
 
+  .header.header--scrolled .menu__top {
+    margin-top: 16px;
+  }
+
   .header.header--scrolled .header__brand {
-    width: 220px;
-    height: 48px;
+    width: 200px;
   }
 
   .menu__nav .button:not(.button--solid):hover {
@@ -423,7 +426,6 @@ a.icon-link:active,
 
   .header.header--scrolled .header__mobile-brand {
     width: 140px;
-    height: 34px;
   }
 
   .menu__nav .button {
