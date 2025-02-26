@@ -544,6 +544,12 @@ p a {
     text-align: right;
   }
 
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row__content li,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content li,
+  .alternating-row-2:nth-child(odd) .alternating-row__content li {
+    display: block;
+  }
+
   .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row__content li,
   .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content li,
   .alternating-row-2:nth-child(even) .alternating-row__content li {
@@ -557,6 +563,12 @@ p a {
     content: "•";
     margin-left: 20px;
     font-size: 32px;
+  }
+
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .button-wrapper,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .button-wrapper,
+  .alternating-row-2:nth-child(odd) .button-wrapper {
+    justify-content: flex-start;
   }
 
   .alternating-row-2:nth-child(even) .alternating-row-2 .button-wrapper,
@@ -575,6 +587,12 @@ p a {
   .w-dyn-item.alternating-row-2:nth-child(even) .contact,
   .alternating-row-2:nth-child(even) .contact {
     flex-direction: row;
+  }
+
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .text-line,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .text-line,
+  .alternating-row-2:nth-child(odd) .text-line {
+    justify-content: flex-start;
   }
 
   .alternating-row-2:nth-child(even) .alternating-row-2 .text-line,
