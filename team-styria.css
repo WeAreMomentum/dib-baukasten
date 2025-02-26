@@ -601,16 +601,16 @@ p a {
     justify-content: flex-end;
   }
 
-  .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row-2__img-wrapper,
-  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row-2__img-wrapper,
-  .alternating-row-2:nth-child(odd) .alternating-row-2__img-wrapper {
-    order: -1;
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row__content-wrapper,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content-wrapper,
+  .alternating-row-2:nth-child(odd) .alternating-row__content-wrapper {
+    order: 1;
   }
 
-  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row-2__img-wrapper,
-  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row-2__img-wrapper,
-  .alternating-row-2:nth-child(even) .alternating-row-2__img-wrapper {
-    order: unset;
+  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row__content-wrapper,
+  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content-wrapper,
+  .alternating-row-2:nth-child(even) .alternating-row__content-wrapper {
+    order: -1;
   }
 
   .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row-2__icon,
