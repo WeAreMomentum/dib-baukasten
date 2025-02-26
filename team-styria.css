@@ -530,24 +530,28 @@ p a {
 }
 
 @media screen and (min-width: 48rem) { /* 768px */
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row__content,
   .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content,
   .alternating-row-2:nth-child(odd) .alternating-row__content {
     grid-template-columns: 1fr 1.1fr;
     text-align: left;
   }
 
+  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row__content,
   .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content,
   .alternating-row-2:nth-child(even) .alternating-row__content {
     grid-template-columns: 1.1fr 1fr;
     text-align: right;
   }
 
+  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row__content li,
   .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content li,
   .alternating-row-2:nth-child(even) .alternating-row__content li {
     display: flex;
     justify-content: flex-end;
   }
 
+  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row__content li::after,
   .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content li::after,
   .alternating-row-2:nth-child(even) .alternating-row__content li::after {
     content: "•";
@@ -555,42 +559,50 @@ p a {
     font-size: 32px;
   }
 
+  .alternating-row-2:nth-child(even) .alternating-row-2 .button-wrapper,
   .w-dyn-item.alternating-row-2:nth-child(even) .button-wrapper,
   .alternating-row-2:nth-child(even) .button-wrapper {
     justify-content: flex-end;
   }
 
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .contact,
   .w-dyn-item.alternating-row-2:nth-child(odd) .contact,
   .alternating-row-2:nth-child(odd) .contact {
     flex-direction: row-reverse;
   }
 
+  .alternating-row-2:nth-child(even) .alternating-row-2 .contact,
   .w-dyn-item.alternating-row-2:nth-child(even) .contact,
   .alternating-row-2:nth-child(even) .contact {
     flex-direction: row;
   }
 
+  .alternating-row-2:nth-child(even) .alternating-row-2 .text-line,
   .w-dyn-item.alternating-row-2:nth-child(even) .text-line,
   .alternating-row-2:nth-child(even) .text-line {
     justify-content: flex-end;
   }
 
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row-2__img-wrapper,
   .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row-2__img-wrapper,
   .alternating-row-2:nth-child(odd) .alternating-row-2__img-wrapper {
     order: -1;
   }
 
+  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row-2__img-wrapper,
   .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row-2__img-wrapper,
   .alternating-row-2:nth-child(even) .alternating-row-2__img-wrapper {
     order: unset;
   }
 
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row-2__icon,
   .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row-2__icon,
   .alternating-row-2:nth-child(odd) .alternating-row-2__icon {
     left: auto;
     right: 32px;
   }
   
+  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row-2__icon,
   .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row-2__icon,
   .alternating-row-2:nth-child(even) .alternating-row-2__icon {
     left: 32px;
