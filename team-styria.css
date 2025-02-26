@@ -544,6 +544,18 @@ p a {
     text-align: right;
   }
 
+  .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row__content-wrapper,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content-wrapper,
+  .alternating-row-2:nth-child(odd) .alternating-row__content-wrapper {
+    order: 1;
+  }
+
+  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row__content-wrapper,
+  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content-wrapper,
+  .alternating-row-2:nth-child(even) .alternating-row__content-wrapper {
+    order: -1;
+  }
+
   .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row__content li,
   .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content li,
   .alternating-row-2:nth-child(odd) .alternating-row__content li {
@@ -599,18 +611,6 @@ p a {
   .w-dyn-item.alternating-row-2:nth-child(even) .text-line,
   .alternating-row-2:nth-child(even) .text-line {
     justify-content: flex-end;
-  }
-
-  .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row__content-wrapper,
-  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content-wrapper,
-  .alternating-row-2:nth-child(odd) .alternating-row__content-wrapper {
-    order: 1;
-  }
-
-  .alternating-row-2:nth-child(even) .alternating-row-2 .alternating-row__content-wrapper,
-  .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content-wrapper,
-  .alternating-row-2:nth-child(even) .alternating-row__content-wrapper {
-    order: -1;
   }
 
   .alternating-row-2:nth-child(odd) .alternating-row-2 .alternating-row-2__icon,
