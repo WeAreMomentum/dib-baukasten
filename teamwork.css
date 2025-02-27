@@ -200,7 +200,7 @@ a.icon-link:active,
   background-color: var(--lehre);
 }
 
-.blue-bg .button.button--solid,
+.blue-bg:not(.w-dyn-item.alternating-row-2:nth-child(even)) .button.button--solid,
 .main--blue .button.button--solid {
   background-color: var(--bg);
   color: var(--primary);
