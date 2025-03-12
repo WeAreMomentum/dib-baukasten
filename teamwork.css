@@ -613,12 +613,26 @@ a.icon-link:active,
     text-align: right;
   }
 
+  .w-dyn-item.alternating-row:nth-child(odd) .alternating-row__content li,
+  .alternating-row:nth-child(odd) .alternating-row__content li,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content li,
+  .alternating-row-2:nth-child(odd) .alternating-row__content li {
+    display: list-item;
+  }
+
   .w-dyn-item.alternating-row:nth-child(even) .alternating-row__content li,
   .alternating-row:nth-child(even) .alternating-row__content li,
   .w-dyn-item.alternating-row-2:nth-child(even) .alternating-row__content li,
   .alternating-row-2:nth-child(even) .alternating-row__content li {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .w-dyn-item.alternating-row:nth-child(odd) .alternating-row__content .content__text li::after,
+  .alternating-row:nth-child(odd) .alternating-row__content .content__text li::after,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .alternating-row__content .content__text li::after,
+  .alternating-row-2:nth-child(odd) .alternating-row__content .content__text li::after {
+    content: none;
   }
 
   .w-dyn-item.alternating-row:nth-child(even) .alternating-row__content .content__text li::after,
@@ -628,6 +642,13 @@ a.icon-link:active,
     content: "•";
     margin-left: 20px;
     font-size: 32px;
+  }
+
+  .w-dyn-item.alternating-row:nth-child(odd) .button-wrapper,
+  .alternating-row:nth-child(odd) .button-wrapper,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .button-wrapper,
+  .alternating-row-2:nth-child(odd) .button-wrapper {
+    justify-content: flex-start;
   }
 
   .w-dyn-item.alternating-row:nth-child(even) .button-wrapper,
@@ -650,6 +671,13 @@ a.icon-link:active,
   .w-dyn-item.alternating-row-2:nth-child(even) .contact,
   .alternating-row-2:nth-child(even) .contact {
     flex-direction: row;
+  }
+
+  .w-dyn-item.alternating-row:nth-child(odd) .text-line,
+  .alternating-row:nth-child(odd) .text-line,
+  .w-dyn-item.alternating-row-2:nth-child(odd) .text-line,
+  .alternating-row-2:nth-child(odd) .text-line {
+    justify-content: flex-start;
   }
 
   .w-dyn-item.alternating-row:nth-child(even) .text-line,
