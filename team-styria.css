@@ -268,6 +268,7 @@ p a {
 }
 
 .header--scrolled .menu__nav {
+  padding: 0 16px;
   border: none;
 }
 
@@ -348,7 +349,7 @@ p a {
   }
 
   .menu__nav .button:not(.button--solid):hover {
-    color: var(--primary);
+    color: #9bc539;
   }
 
   .menu__nav .button.button--solid:hover {
