@@ -799,6 +799,7 @@ p a {
 /* Highlight */
 .highlight .button.button--solid:nth-child(2) {
   background-color: var(--lehre);
+  color: var(--bg);
 }
 
 .highlight .button.button--solid:nth-child(2):active {
