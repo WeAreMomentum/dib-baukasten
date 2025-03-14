@@ -260,6 +260,17 @@ p a {
 
 
 /* Header */
+.header--scrolled .container--menu-top {
+  background-color: var(--primary);
+  color: var(--white);
+  border: 1px solid transparent;
+  box-shadow: 4px 4px 16px #00000040;
+}
+
+.header--scrolled .menu__nav {
+  border: none;
+}
+
 .header--scrolled .brand-full {
   display: none;
 }
