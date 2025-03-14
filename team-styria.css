@@ -195,11 +195,7 @@ p a {
   color: var(--bg);
 }
 
-.dark-green-bg .button.button--solid {
-  background-color: var(--bg);
-  color: var(--primary);
-}
-
+.dark-green-bg .button.button--solid,
 .light-green-bg .button.button--solid,
 .orange-bg .button.button--solid {
   background-color: var(--bg);
@@ -248,6 +244,7 @@ p a {
   
   .dark-green-bg .button.button--solid:hover {
     background-color: var(--secondary);
+    color: var(--text);
   }
   
   .light-green-bg .button.button--solid:hover,
@@ -482,6 +479,11 @@ p a {
 .grey-bg:last-child {
   margin-bottom: 0;
   border-bottom: none;
+}
+
+.w-dyn-list:not(:last-child) .dark-green-bg:last-child {
+  margin-bottom: 80px;
+  border-bottom: 1px solid;
 }
 
 .colored-bg-sibling {
