@@ -1,9 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
-  height: 100%;
   overflow-x: hidden !important;
   overflow-y: auto;
   -moz-osx-font-smoothing: grayscale;
@@ -265,6 +260,14 @@ p a {
 
 
 /* Header */
+.header--scrolled .brand-full {
+  display: none;
+}
+
+.header--scrolled .brand-small {
+  display: block;
+}
+
 .header__brand svg,
 .header__mobile-brand svg,
 .menu__brand svg {
