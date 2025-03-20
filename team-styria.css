@@ -811,8 +811,47 @@ p a {
 
 /* Forms */
 .checkbox:checked {
-  background-color: var(--secondary);
-  border-color: var(--text);
+  background-color: #8E9DB3;
+  border-color: #8E9DB3;
+}
+
+.first-contrast-bg.checkbox:checked {
+  background-color: var(--first-contrast-bg-color) !important;
+}
+
+.second-contrast-bg.checkbox:checked {
+  background-color: var(--second-contrast-bg-color) !important;
+}
+
+.third-contrast-bg.checkbox:checked {
+  background-color: var(--third-contrast-bg-color) !important;
+}
+
+.checkbox:checked::after {
+  content: '';
+  position: absolute;
+  left: 5.5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: block;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.first-contrast-bg.checkbox:checked::after {
+  border-color: var(--first-contrast-text-color) !important;
+}
+
+.second-contrast-bg.checkbox:checked::after {
+  border-color: var(--second-contrast-text-color) !important;
+}
+
+.third-contrast-bg.checkbox:checked::after {
+  border-color: var(--third-contrast-text-color) !important;
 }
 
 
