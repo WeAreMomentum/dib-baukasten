@@ -482,6 +482,12 @@ p a {
   border-color: var(--lehre);
 }
 
+@media screen and (max-width: 47.95rem) {
+  .orange-body .alternating-row-2__img-wrapper {
+    order: -1;
+  }
+}
+
 @media screen and (min-width: 48rem) {
   .orange-body .alternating-row-2:nth-child(odd) .alternating-row__content {
     grid-template-columns: 1.5fr 1fr;
