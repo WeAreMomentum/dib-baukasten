@@ -449,59 +449,6 @@ p a {
 }
 
 
-/* Colored Pages */
-.orange-body .header.header--scrolled .container.container--menu-top {
-  background-color: var(--lehre);
-}
-
-.orange-body .menu__nav > .button:last-child {
-  color: var(--bg);
-}
-
-.orange-body .menu__nav > .button:last-child:active {
-  background-color: var(--text);
-  color: var(--bg);
-}
-
-.orange-body .menu__nav,
-.orange-body .menu__sub-link-list,
-.orange-body .header__social-link,
-.orange-body .jobs__item,
-.lehrstelle-tag+.jobs__item {
-  background-color: var(--lehre);
-}
-
-.orange-body .heading-110,
-.orange-body .countables__value,
-.orange-body .accordion__heading {
-  color: var(--lehre);
-}
-
-.orange-body .team-card,
-.orange-body .accordion {
-  border-color: var(--lehre);
-}
-
-@media screen and (min-width: 48rem) {
-  .orange-body .alternating-row__content {
-    grid-template-columns: 1.5fr 1fr;
-    gap: 2rem;
-  }
-}
-
-@media screen and (min-width: 62rem) { /* 992px */
-  .orange-body .menu__nav > .button:last-child:hover {
-    background-color: var(--primary);
-    color: var(--bg);
-  }
-  
-  .orange-body .header__social-link:hover {
-    background-color: var(--secondary);
-    color: var(--text);
-  }
-}
-
-
 /* Colored BG */
 .dark-green-bg:last-child,
 .light-green-bg:last-child,
@@ -683,6 +630,59 @@ p a {
 
   .colored-bg-sibling .w-dyn-item.alternating-row-2.light-green-bg:last-child:nth-child(even) {
     margin-bottom: 80px;
+  }
+}
+
+
+/* Colored Pages */
+.orange-body .header.header--scrolled .container.container--menu-top {
+  background-color: var(--lehre);
+}
+
+.orange-body .menu__nav > .button:last-child {
+  color: var(--bg);
+}
+
+.orange-body .menu__nav > .button:last-child:active {
+  background-color: var(--text);
+  color: var(--bg);
+}
+
+.orange-body .menu__nav,
+.orange-body .menu__sub-link-list,
+.orange-body .header__social-link,
+.orange-body .jobs__item,
+.lehrstelle-tag+.jobs__item {
+  background-color: var(--lehre);
+}
+
+.orange-body .heading-110,
+.orange-body .countables__value,
+.orange-body .accordion__heading {
+  color: var(--lehre);
+}
+
+.orange-body .team-card,
+.orange-body .accordion {
+  border-color: var(--lehre);
+}
+
+@media screen and (min-width: 48rem) {
+  .orange-body .alternating-row__content {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 62rem) { /* 992px */
+  .orange-body .menu__nav > .button:last-child:hover {
+    background-color: var(--primary);
+    color: var(--bg);
+  }
+  
+  .orange-body .header__social-link:hover {
+    background-color: var(--secondary);
+    color: var(--text);
   }
 }
 
