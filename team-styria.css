@@ -815,18 +815,6 @@ p a {
   border-color: #8E9DB3;
 }
 
-.first-contrast-bg.checkbox:checked {
-  background-color: var(--first-contrast-bg-color) !important;
-}
-
-.second-contrast-bg.checkbox:checked {
-  background-color: var(--second-contrast-bg-color) !important;
-}
-
-.third-contrast-bg.checkbox:checked {
-  background-color: var(--third-contrast-bg-color) !important;
-}
-
 .checkbox:checked::after {
   content: '';
   position: absolute;
