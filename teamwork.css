@@ -297,6 +297,10 @@ a.icon-link:active,
 .header.header--scrolled .menu,
 .header.header--scrolled .menu__sub-link-list {
   background: var(--secondary);
+}
+
+.header.header--scrolled .menu__top,
+.header.header--scrolled .menu__sub-link-list {
   color: var(--bg);
 }
 
